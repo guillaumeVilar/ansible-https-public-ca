@@ -1,0 +1,7 @@
+all:
+  hosts:
+    guillaume-lab.tk:
+      ansible_host: guillaume-lab.tk
+      ansible_ssh_user: ubuntu
+      ansible_ssh_private_key_file: test-aws-gigi-key-pair.pem
+      letsencrypt_email: myemail@gmail.com
